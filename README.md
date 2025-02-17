@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-```markdown
 # StudyHub 📚 - Your Ultimate Student Companion 🎒
 
 ![Hero Banner](screenshots/hero.png)  
@@ -22,8 +20,8 @@
   Notes with code snippets and diagrams.
 
 ### 🎧 Focus Music Section
-- **5 Types of Music Tracks** 🎹  
-  Piano, Nature Sounds, Lofi Beats, and more.
+- **Types of Music Tracks** 🎹  
+  Piano, Nature Sounds and more.
 - **Auto-play and Loop Feature** 🔁  
   Play music continuously without interruptions.
 - **Volume Control** 🔊  
@@ -41,12 +39,12 @@
 
 ## 🛠️ Tech Stack
 
-| Technology       | Use Case                              | Emoji |
-|------------------|---------------------------------------|-------|
-| **HTML5**        | Basic structure of the website         | 📄    |
-| **CSS3**         | Gradients, animations, and layout      | 🎨    |
-| **JavaScript**   | Game logic and interactivity           | ⚡    |
-| **Font Awesome** | Icons and button design                | ✨    |
+| Technology       | Use Case                               |
+|------------------|----------------------------------------|
+| **HTML5**        | Basic structure of the website         | 
+| **CSS3**         | Gradients, animations, and layout      | 
+| **JavaScript**   | Game logic and interactivity           | 
+| **Font Awesome** | Icons and button design                | 
 
 ---
 
@@ -72,7 +70,7 @@
 ## 📸 Screenshots
 
 | Section           | Preview                                                                 |
-|-------------------|--------------------------------------------------------------------------|
+|-------------------|-------------------------------------------------------------------------|
 | **Notes**         | ![Notes Preview](screenshots/notes.png)                                 |
 | **Music**         | ![Music Preview](screenshots/music.png)                                 |
 | **Games**         | ![Games Preview](screenshots/games.png)                                 |
