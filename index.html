@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyHub - Dynamic Interface</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">StudyHub</div>
+        <ul class="nav-links">
+            <li><a href="#study" class="active">Study</a></li>
+            <li><a href="#music">Music</a></li>
+            <li><a href="#games">Games</a></li>
+        </ul>
+        <div class="theme-toggle">
+            <span>🌞</span>
+            <label class="switch">
+                <input type="checkbox" id="theme-toggle">
+                <span class="slider"></span>
+            </label>
+            <span>🌜</span>
+        </div>
+    </nav>
+
+
+
+
+
+
+    <!-- Combined Study and Features Section -->
+    <section id="study" class="section active">
+        <!-- Study Content -->
+        <div class="study-content">
+            <div class="hero">
+                <h1 class="gradient-text">Welcome to StudyHub</h1>
+                <p>Your one-stop solution for studying, focusing, and relaxing.</p>
+            </div>
+            <div class="notes-container">
+                <div class="note-card">
+                    <h3>Mathematics</h3>
+                    <p>Algebra, Calculus, and more.</p>
+                </div>
+                <div class="note-card">
+                    <h3>Science</h3>
+                    <p>Physics, Chemistry, Biology.</p>
+                </div>
+                <div class="note-card">
+                    <h3>History</h3>
+                    <p>World History, Indian History.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features Content -->
+        <div class="features-content">
+            <h2>Something Useful</h2>
+            <div class="features-container">
+                <!-- Text to PDF Converter -->
+                <div class="feature-card" data-target="text-to-pdf">
+                    <img src="https://cdn-icons-png.flaticon.com/512/337/337946.png" alt="PDF Icon">
+                    <p>Text to PDF Converter</p>
+                </div>
+
+                <!-- MCQ Quiz Generator -->
+                <div class="feature-card" data-target="mcq-quiz">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2620/2620971.png" alt="Quiz Icon">
+                    <p>MCQ Quiz Generator</p>
+                </div>
+
+                <!-- Flashcards -->
+                <div class="feature-card" data-target="flashcards">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135691.png" alt="Flashcard Icon">
+                    <p>Flashcards</p>
+                </div>
+
+                <!-- Flashcards Generator -->
+                <div class="feature-card" data-target="flashcard-generator">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135691.png" alt="Flashcard Generator Icon">
+                    <p>Flashcard Generator</p>
+                </div>
+
+                <!-- Pomodoro Timer -->
+                <div class="feature-card" data-target="pomodoro-timer">
+                    <img src="https://cdn-icons-png.flaticon.com/512/850/850960.png" alt="Timer Icon">
+                    <p>Pomodoro Timer</p>
+                </div>
+
+                <!-- Sticky Notes -->
+                <div class="feature-card" data-target="sticky-notes">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2885/2885538.png" alt="Notes Icon">
+                    <p>Sticky Notes</p>
+                </div>
+
+                <!-- Math Solver -->
+                <div class="feature-card" data-target="math-solver">
+                    <img src="https://cdn-icons-png.flaticon.com/512/897/897368.png" alt="Math Icon">
+                    <p>Math Solver</p>
+                </div>
+
+                <!-- Unit Converter -->
+                <div class="feature-card" data-target="unit-converter">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1584/1584892.png" alt="Converter Icon">
+                    <p>Unit Converter</p>
+                </div>
+
+                <!-- Dictionary -->
+                <div class="feature-card" data-target="dictionary">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1946/1946932.png" alt="Dictionary Icon">
+                    <p>Dictionary</p>
+                </div>
+
+                <!-- Markdown Editor -->
+                <div class="feature-card" data-target="markdown-editor">
+                    <img src="https://cdn-icons-png.flaticon.com/512/1442/1442581.png" alt="Editor Icon">
+                    <p>Markdown Editor</p>
+                </div>
+
+                <!-- Speech to Text -->
+                <div class="feature-card" data-target="speech-to-text">
+                    <img src="https://cdn-icons-png.flaticon.com/512/3797/3797730.png" alt="Voice Icon">
+                    <p>Voice Notes</p>
+                </div>
+            </div>
+
+            <!-- Fragment for Feature Content -->
+            <div id="feature-fragment" class="feature-fragment">
+                <!-- Content will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="section">
+        <div class="hero">
+            <h1 class="gradient-text">Focus Music</h1>
+            <p>Relax and focus with calming music.</p>
+        </div>
+        <div class="music-container">
+            <div class="music-card">
+                <h3>Calm Piano</h3>
+                <audio controls>
+                    <source src="calm-piano.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+            <div class="music-card">
+                <h3>Nature Sounds</h3>
+                <audio controls>
+                    <source src="nature-sounds.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </div>
+        </div>
+    </section>
+
+    <!-- Game Section -->
+    <section id="games" class="section">
+        <div class="hero">
+            <h1 class="gradient-text">Relaxing Games</h1>
+            <p>Take a break and play some games.</p>
+        </div>
+        <div class="games-container">
+
+
+            <!-- Snake Game -->
+<div class="game-card" onclick="loadGame('snake')">
+    <img src="https://cdn.chols.in/DIG_LIB/Projects/Images/Snake%20Game%20using%20Java/Snake%20Game%20using%20Java%20img%201.png" alt="Snake Game">
+    <h3>Snake Game</h3>
+    <p>Guide the snake to eat food and grow!</p>
+</div>
+
+<!-- 2048 Game -->
+<div class="game-card" onclick="loadGame('2048')">
+    <img src="https://iconduck.com/icons/151689/2048.png" alt="2048">
+    <h3>2048</h3>
+    <p>Combine tiles to reach the 2048 tile!</p>
+</div>
+
+<!-- Tetris Game -->
+<div class="game-card" onclick="loadGame('tetris')">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Tetris_GB_play.gif" alt="Tetris">
+    <h3>Tetris</h3>
+    <p>Arrange falling blocks to clear lines!</p>
+</div>
+
+<!-- Flappy Bird -->
+<div class="game-card" onclick="loadGame('flappy')">
+    <img src="https://upload.wikimedia.org/wikipedia/en/0/06/Flappy_Bird_icon.png" alt="Flappy Bird">
+    <h3>Flappy Bird</h3>
+    <p>Keep the bird flying and avoid obstacles!</p>
+</div>
+
+        </div>
+        <div class="game-fragment">
+            <p id="initialMessage">Select a game from above to start playing</p>
+            <div id="gameContent"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 StudyHub. All rights reserved.</p>
+        <p class="fun-message">P.S. This is my 2nd year project, so don't mind the simplicity. Hope you like it! 😄</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
