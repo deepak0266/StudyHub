@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ```markdown
 # StudyHub 📚 - Your Ultimate Student Companion 🎒
 
@@ -108,3 +109,6 @@
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
+=======
+# Multifunctional-Education-Website-
+>>>>>>> eb5771c3e83a9f4358113a0d25a0bc952f28b9f3
